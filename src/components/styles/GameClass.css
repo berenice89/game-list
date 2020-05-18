@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GAME LIST */
+
+#gamelist {
+  background-image: url("/img/hpbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sortbyratings {
+  width: 900px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.sortbyratings button {
+  width: 360px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: 0;
+}
+
+.sortbyratings button:hover {
+  background-color: #3b4037;
+  color: white;
+}
+.allGames {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gameClass {
+  width: 600px;
+  height: 70px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.gameClass h2 {
+  margin-bottom: 20px;
+}
+.gameClass p {
+  color: gray;
+}
+
+/* GAME COMPONENT */
+
+.moreabout {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.moreabout button {
+  width: 110px;
+  height: 40px;
+  background-color: #5a7873;
+  color: white;
+  border: 0;
+  padding: 10px;
+}
+
+.moreabout button:hover {
+  background-color: #3b4037;
+}
+
+/* GAME DETAILS COMPONENT */
+.gameDetails {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+  text-align: center;
+}
+
+.gameDetails h1 {
+  margin-bottom: 1em;
+}
+
+.content {
+  width: 800px;
+  background-color: white;
+  border: 10px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.gallery {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.gallery img {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  height: 120px;
+  object-fit: fill;
+}
+
+.returnButton {
+  margin: 20px;
+  text-align: right;
+}
+
+.returnButton button {
+  background-color: #c4c8d1;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.returnButton button:hover {
+  background-color: gray;
+}
